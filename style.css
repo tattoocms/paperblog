@@ -1,0 +1,274 @@
+/* Layout Stylesheet */ 
+
+body {
+	margin:0px;
+	color: #927F6E;
+	text-align:center;
+	padding:0;
+	background-color: #FFF5E9;
+	background-image: url(imgs/pageback.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+ }
+
+#outer {
+ text-align:left;
+ border:1px dotted #000000;
+ width:650px;
+ margin:auto;
+ }
+
+#hdr {
+	height:152px;
+	color: #333333;
+	background-image: url(imgs/madewithmodx.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 50px;
+	text-align: right;
+ }
+
+#bar {
+	height:25px;
+	color: #333333;
+	background-color: #c0c0c0;
+	background-image: url(imgs/paperback.jpg);
+	border-top-width: thin;
+	border-right-width: 0;
+	border-bottom-width: thin;
+	border-left-width: 0;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+ }
+
+#bodyblock {
+	position:relative;
+	color: #333333;
+	width:650px;
+	padding:0;
+	background-color: #dcdcdc;
+	background-image: url(imgs/paperback.jpg);
+ }
+
+#l-col {
+	float:left;
+	color: #333333;
+	width:145px;
+	background-image: url(imgs/menu.jpg);
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+ }
+h1 {
+	color: #6e3d07;
+}
+h2 {
+	color: #993300;
+}
+h3 {
+	color: #9F8A75;
+	font-size: 130%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #9F8A75;
+}
+
+
+#cont {
+	width:495px;
+	color: #333333;
+	text-align:left;
+	border-top-width: thin;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: thin;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	background-color: #f8eee3;
+	padding-left: 8px;
+	padding-right: 8px;
+ }
+h4 {
+	font-size: 110%;
+	color: #999999;
+}
+
+
+#ftr {
+	height:25px;
+	color: #333333;
+	margin:0;
+	background-color: #c0c0c0;
+	background-image: url(imgs/paperback.jpg);
+	border-top-width: thin;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+ }
+/*MENU*/
+
+
+
+#menu a:hover{
+	color:#660033;
+	background: url(imgs/bgmenu.jpg), no-repeat;
+	background-image: url(imgs/bgmenu.jpg);
+	background-repeat:no-repeat; 
+}
+
+#menu li{
+
+   list-style:none;
+
+   margin:0;
+
+   height:auto !important;
+
+   height:1%;
+
+   line-height:1.6em;
+
+   font-size:1em;
+
+   color:#000;
+
+   font-weight:bold;
+
+   text-align:left;
+
+}
+
+#menu li a, #menu li.here a{
+
+   color:#94826E;   /* non current menu color */
+
+   display:block;
+
+   padding:2px;
+
+   text-decoration:none;
+
+}
+
+#menu li.here{
+
+   color:#C5AE8F;     /* current menu color */
+
+   padding-top:1px ;
+
+}
+
+#menu ul{
+
+   margin:0;
+
+   padding-bottom:20px;
+
+   padding-left:10px;
+
+}
+
+#menu ul ul{
+
+   display:none;
+
+}
+
+#menu ul ul ul{
+
+   display:none;
+
+}
+
+#menu li.here ul{
+
+   display:block;
+
+   padding:2px 0px 2px 15px;
+
+   font-size:1em;
+
+}
+
+#menu li.here ul ul {
+
+   display:none;
+
+}
+
+#menu li.here li.here ul {
+
+   display:block;
+
+}
+
+/*links*/
+
+A:link {
+
+color:#6E3D07;
+
+text-decoration:none;
+font-weight:bold
+
+}
+
+
+
+A:active {
+
+color:#000;
+
+text-decoration:none;
+font-weight:bold
+}
+
+
+
+A:visited {
+
+color:#6E3D07;
+font-weight:bold
+text-decoration:underline;
+
+}
+
+
+
+A:hover {
+
+color:#990000;
+font-weight:bold
+text-decoration:none;
+background-image: url(imgs/bgmenu.jpg);
+background-repeat: no-repeat;
+}
